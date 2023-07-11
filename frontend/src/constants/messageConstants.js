@@ -1,0 +1,9 @@
+export const CREATE_MSG_REQUEST = "CREATE_MSG_REQUEST";
+export const CREATE_MSG_SUCCESS = "CREATE_MSG_SUCCESS";
+export const CREATE_MSG_FAIL = "CREATE_MSG_FAIL";
+
+export const GET_MSG_REQUEST = "GET_MSG_REQUEST";
+export const GET_MSG_SUCCESS = "GET_MSG_SUCCESS";
+export const GET_MSG_FAIL = "GET_MSG_FAIL";
+
+export const CLEAR_ERRORS = "CLEAR_ERRORS";

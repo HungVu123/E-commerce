@@ -1,0 +1,58 @@
+/* Scroller styling */
+.scroller {
+    height: 1.5em;
+    line-height: 1.2em;
+    position: relative;
+    overflow: hidden;
+  }
+  .scroller > span {
+    position: absolute;
+    top: 0.2em;
+    animation: slide 4s infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -1.5em;
+    }
+  }
+
+  .header {
+    font-size:16px;
+    font-weight: normal;
+    color: #222;
+    text-decoration: none;
+    display: block;
+    padding: .5rem 0rem
+  }
+
+  .header:hover{
+    color:#0da487;
+}
+
+.login-signup{
+  color: white;
+  text-decoration: none;
+}
+
+.login-signup:hover{
+  color:#0da487;
+}
+
+.user-box-name {
+  padding-left: 0;
+}
+
+.product-box-contain a{
+  text-decoration:none
+}
+
+.avatar-icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 2px solid #222;
+}

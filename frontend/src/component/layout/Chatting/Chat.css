@@ -1,0 +1,148 @@
+/* CSS for the chat window */
+.chat-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS for the chat header */
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f6f7f9;
+  border-bottom: 1px solid #dddfe2;
+}
+
+.chat-header h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.chat-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.chat-header button:hover {
+  color: #1d2129;
+}
+
+.chat-header button svg {
+  width: 16px;
+  height: 16px;
+  fill: #65676b;
+}
+
+/* CSS for the chat body */
+.chat-body {
+  padding: 10px;
+  background-color: #f6f7f9;
+  height: 400px;
+  overflow-y: auto;
+}
+
+/* CSS for each chat message */
+.message-sender {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1d2129;
+  justify-content: flex-start;
+}
+
+.message-recived {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1d2129;
+  flex-direction: row-reverse;
+}
+
+.chatbox-sender {
+  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.chatbox-recived {
+  margin-right: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.message-content-sender {
+  font-size: 14px;
+  color: #fff;
+  background-color: #757575;
+  border-radius: 12px;
+  padding: 8px 12px;
+  word-break: break-word;
+  margin-right: 20px;
+}
+
+.message-content-recived {
+  font-size: 14px;
+  color: #fff;
+  background-color: #1877f2;
+  border-radius: 12px;
+  padding: 8px 12px;
+  word-break: break-word;
+  margin-left: 20px;
+}
+
+/* CSS for the chat footer */
+.chat-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f6f7f9;
+  border-top: 1px solid #dddfe2;
+  gap: 10px;
+}
+
+.chat-footer input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #1d2129;
+}
+
+/* Additional styles for scrollbar */
+.chat-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-body::-webkit-scrollbar-thumb {
+  background-color: #d0d2d5;
+  border-radius: 4px;
+}
+
+.chat-body::-webkit-scrollbar-track {
+  background-color: #f6f7f9;
+}

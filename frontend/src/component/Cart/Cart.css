@@ -1,0 +1,57 @@
+.labelChange {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: #0da487;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+.deliveryAddressDetail {
+  display: flex;
+  padding-left: 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  width: calc(85% + (75 - 85) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.label1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid #db1717;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: #db1717;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}
+
+.form-check-input:checked {
+  background-color: #0da487;
+  border-color: #0da487;
+}
+
+.accordion-body1 > div > div {
+  display: flex;
+  gap: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  outline: none;
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+}
+
+.paymentInput {
+  width: 100%;
+}
+
+.row > div > svg {
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}

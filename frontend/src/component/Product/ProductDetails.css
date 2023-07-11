@@ -1,0 +1,16 @@
+.submitReview {
+    border: none;
+    background-color: rgba(13,164,135,255);
+    font: 500 0.7vmax "Roboto";
+    border-radius: 5px;
+    padding: 0.7vmax 2vmax;
+    margin: 1vmax 0;
+    color: white;
+    outline: none;
+    font-size: 1em;
+  }
+
+  .noReviews {
+    font: 400px;
+    text-align: center;
+  }  

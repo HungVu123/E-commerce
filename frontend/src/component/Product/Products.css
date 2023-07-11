@@ -1,0 +1,101 @@
+/**
+ * responsive for large than 550px screen
+ */
+ @media (min-width: 1440px) {
+    .col-xl-4.col-md-6:last-child {
+        display: none;
+      }
+  }
+
+.range-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.range-input span{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+}
+
+.range-input input[type="text"]{
+    border: 0;
+    max-width: 64px;
+    text-align: right;
+    font-size: 14px;
+    float: left;
+    background-color: #fff;
+}
+
+.range-input .place-holder {
+    font-size: 14px;
+    float: left;
+}
+
+.range-slider{
+    margin: 7.5px;
+}
+
+.c-btnbox {
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    color: #333;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 17px;
+    padding: 8px 9px;
+    text-decoration: none;
+    width: 45%;
+}
+
+.filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.filter-button{
+    display:flex;
+    justify-content:center;
+    gap: 10px;
+}
+
+.btn-filter-readmore{
+    background-color: #0da487;
+    color: #fff;
+}
+
+.btn-filter-close {
+    color: #dd1c1a;
+}
+
+.btn-filter-close, .btn-filter-readmore {
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 0;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    border: 1px solid #e0e0e0;
+}
+
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product-box{
+    flex-basis: calc(25% - 10px);
+    margin-bottom: 5px;
+}

@@ -1,0 +1,39 @@
+.a {
+  text-decoration: none;
+  color: #0da487;
+}
+
+.col-xxl-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.vr {
+  align-self: center;
+}
+
+.avatar-preview {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  border: 1px solid #222;
+}
+
+.input-form {
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  outline: none;
+}
+
+.button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 17px;
+  padding-right: 17px;
+}
